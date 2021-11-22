@@ -6,7 +6,8 @@ namespace EFCore_ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var userInteface = new UserInterface();
+            userInteface.Run();
         }
     }
 }
